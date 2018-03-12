@@ -2,6 +2,10 @@
 dish_washer_manager/todays_absentees.txt
 __pycache__/
 DishWasherManager/dish_washer_manager/
+# exclude everything
+dish_washer_manager/groups/*
+# exception to the rule
+dish_washer_manager/groups/.gitkeep
 *.pyc
 *.py[cod]
 *$py.class
