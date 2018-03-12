@@ -1,4 +1,5 @@
 # Byte-compiled / optimized / DLL files
+dish_washer_manager/todays_absentees.txt
 __pycache__/
 DishWasherManager/dish_washer_manager/
 *.pyc
