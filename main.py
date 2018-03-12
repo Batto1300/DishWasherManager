@@ -1,10 +1,14 @@
-import dish_washer_manager.washers_manager as manager
-
-def main():
-    washer_manager = manager.washers_manager(['Tommaso','Matteo','Michele'])
-    washer_manager.get_washer()
-
+#!/usr/bin/env python3
+import sys
+import create
+import update
 
 
-if __name__ == "__main__":
-    main()
+def main(action):
+    if action == 'create':
+        create.Initializer.initialize()
+    if action == 'update':
+        update.Updater.update_and_print()
+
+if __name__ == '__main__':
+    main(sys.argv[1])
