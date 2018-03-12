@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+DishWasherManager/dish_washer_manager/
 *.pyc
 *.py[cod]
 *$py.class
